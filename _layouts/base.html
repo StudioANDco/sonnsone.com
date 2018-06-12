@@ -27,7 +27,7 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="#FFFFFF">
 </head>
 
-<body>
+<body class="container">
     <script type="text/javascript">
         var github_url = 'https://studioandco.github.io/';
         var current = window.location.href;
@@ -41,20 +41,24 @@
     </header>
 
     <nav>
-        <ul>
+        <!-- <ul>
             <li><a href="{{ '/' | absolute_url }}">Homepage</a></li>
-        </ul>
+        </ul> -->
     </nav>
 
-    {{ content }}
+    <div class="container__content">
+        <div class="grid">
+            {{ content }}
+        </div>
+    </div>
 
-    <footer>
+    <footer class="container__footer box box--default text-center">
         <address>
-            {{ site.title }}<br>
-            {{ site.street }}<br>
-            {{ site.zip }} {{ site.city }}<br>
-            {{ site.state }} - {{ site.country }}<br>
-            <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+            {{ site.street }} |
+            {{ site.zip }} {{ site.city }} |
+            {{ site.state }} - {{ site.country }} |
+            <a href="mailto:{{ site.email }}">{{ site.email }}</a><br><br>
+            designed by <b><a href="http://www.andco.ch" target="blank">Studio ANDco</a></b>
         </address>
     </footer>
 
