@@ -1,5 +1,5 @@
 /*----------------------------------------*\
-  GLOBAL SETTINGS
+GLOBAL SETTINGS
 \*----------------------------------------*/
 
 // Use this setting to prefix all the components classes
@@ -10,8 +10,8 @@ $rtl:                               false;
 
 
 /**
- * Colors
- */
+* Colors
+*/
 
 $brand-color:                       black;
 $alt-color-lighter:                 #e8ebee;
@@ -23,16 +23,16 @@ $light-color:                       white;
 
 
 /**
- * Typography
- */
+* Typography
+*/
 
- $font-family-default:               'Lato', Verdana, Arial, sans-serif !default;
+$font-family-default:               'Lato', Verdana, Arial, sans-serif !default;
 
-$font-size-default:                 16px;
-$font-size-small:                   .75rem;
-$font-size-large:                   1.5rem;
+$font-size-default:                 16px !default;
+$font-size-small:                   0.75rem !default;
+$font-size-large:                   1.5rem !default;
 
-$line-height-default:               1.45;
+$line-height-default:               1.45 !default;
 
 $text-color:                        $alt-color-darker;
 $link-color:                        $brand-color;
@@ -40,8 +40,8 @@ $muted-color:                       transparentize($text-color, .4);
 
 
 /**
- * Spacings
- */
+* Spacings
+*/
 
 $ratio:                             1.61803398875;
 
@@ -52,17 +52,17 @@ $spacing-unit-large:                floor($spacing-unit-default * $ratio);
 $spacing-unit-huge:                 floor($spacing-unit-default * ($ratio * 2));
 
 $spacings:                          (
-                                      'tight' 0,
-                                      'tiny' $spacing-unit-tiny,
-                                      'small' $spacing-unit-small,
-                                      'large' $spacing-unit-large,
-                                      'huge' $spacing-unit-huge
-                                    );
+'tight' 0,
+'tiny' $spacing-unit-tiny,
+'small' $spacing-unit-small,
+'large' $spacing-unit-large,
+'huge' $spacing-unit-huge
+);
 
 
 /**
- * Responsiveness
- */
+* Responsiveness
+*/
 
 // Use EM media-queries for better browser consistency
 // See http://zellwk.com/blog/media-query-units
@@ -74,20 +74,20 @@ $screen-md-max:                     1024px / 16px * 1em;
 $screen-lg-min:                     1025px / 16px * 1em;
 
 $breakpoints-default:               (
-                                      'sm' '(min-width: #{$screen-sm-min})',
-                                      'md' '(min-width: #{$screen-md-min})',
-                                      'lg' '(min-width: #{$screen-lg-min})'
-                                    );
+'sm' '(min-width: #{$screen-sm-min})',
+'md' '(min-width: #{$screen-md-min})',
+'lg' '(min-width: #{$screen-lg-min})'
+);
 $breakpoints-desc:                  (
-                                      'xs' '(max-width: #{$screen-xs-max})',
-                                      'sm' '(max-width: #{$screen-sm-max})',
-                                      'md' '(max-width: #{$screen-md-max})'
-                                    );
+'xs' '(max-width: #{$screen-xs-max})',
+'sm' '(max-width: #{$screen-sm-max})',
+'md' '(max-width: #{$screen-md-max})'
+);
 
 
 /**
- * Miscellaneous
- */
+* Miscellaneous
+*/
 
 $border-radius-default:             4px;
 $border-radius-small:               2px;
@@ -95,12 +95,12 @@ $border-radius-large:               6px;
 
 
 /*----------------------------------------*\
-  COMPONENTS
+COMPONENTS
 \*----------------------------------------*/
 
 /**
- * Buttons
- */
+* Buttons
+*/
 
 $btn-padding:                       $spacing-unit-small/$ratio $spacing-unit-small;
 $btn-color:                         inherit;
@@ -132,8 +132,8 @@ $btn-primary-active-bkg-color:      darken($btn-primary-bkg-color, 5%);
 
 
 /**
- * Forms
- */
+* Forms
+*/
 
 $field-padding:                     $spacing-unit-small/$ratio $spacing-unit-small;
 
@@ -165,15 +165,15 @@ $field-help-color:                  $alt-color-light;
 $form-group-spacing:                $spacing-unit-small;
 
 /**
- * Lists
- */
+* Lists
+*/
 
 $list-separator-style:              1px solid rgba(0, 0, 0, .15);
 
 
 /**
- * Box
- */
+* Box
+*/
 
 $box-default-color:                 $light-color;
 $box-default-bkg-color:             $brand-color;
@@ -183,30 +183,30 @@ $box-primary-bkg-color:             $brand-color;
 
 
 /**
- * Widths
- */
+* Widths
+*/
 
 $widths-columns:                    6,5,4,3,2,1;
 $widths-breakpoints:                $breakpoints-default;
 
 
 /**
- * Media responsive
- */
+* Media responsive
+*/
 
 $media-collapse:                    $screen-sm-max;
 
 
 /**
- * Container
- */
+* Container
+*/
 
 $container-gutter-width:            $spacing-unit-small;
 $container-max-width:               1400px;
 
 
 /**
- * Table responsive
- */
+* Table responsive
+*/
 
 $table-responsive-collapse:         $screen-sm-max;

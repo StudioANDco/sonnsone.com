@@ -4,12 +4,52 @@
 }
 
 .tile--info {
+    font-size:$font-size-default;
     padding:20px;
+    color:$brand-color;
+
+    h1, h2, h3, address a {
+        font-weight: bold;
+        line-height: 1;
+        font-size: 16px;
+        text-shadow: 0 0 2px rgba(100, 100, 100, 0.3);
+
+        &, a {
+            text-decoration: none;
+            color: inherit;
+            font-style: normal;
+        }
+    }
+
+    h1, h2, h3 { text-transform: uppercase; }
+}
+
+.tile--link {
+    a {
+        text-decoration:none;
+        color:inherit;
+    }
+    a:hover {
+        text-decoration:line-through;
+    }
+}
+
+.tile--intro {
+    position: relative;
+    height: 280px;
+    width:280px;
+    margin-bottom: 20px;
+    cursor: pointer;
+
+    h1, address > span, .url { display: none; }
 
     img, h2, h3, address a {
         line-height: 1;
         font-size: 16px;
         text-shadow: 0 0 2px rgba(100, 100, 100, 0.3);
+        position: absolute;
+        padding: 0;
+        margin: 0;
 
         &, a {
             text-decoration: none;
@@ -19,4 +59,16 @@
     }
 
     h2, h3 { text-transform: uppercase; }
+
+    img {
+        left: 20px;
+        top: 90px;
+        width: 60px;
+    }
+
+    h2, h3, address a { left: 100px; }
+    h2 { top: 110px; }
+    h3 { top: 130px; }
+    .email { top: 165px; }
+    .phone { top: 200px; }
 }
