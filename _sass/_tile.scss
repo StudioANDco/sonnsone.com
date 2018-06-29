@@ -34,41 +34,14 @@
     }
 }
 
-.tile--intro {
-    position: relative;
-    height: 280px;
-    width:280px;
-    margin-bottom: 20px;
-    cursor: pointer;
+.arrow {
+    font-size:3em;
+    margin-top:-40px;
+    margin-bottom:-40px;
 
-    h1, address > span, .url { display: none; }
-
-    img, h2, h3, address a {
-        line-height: 1;
-        font-size: 16px;
-        text-shadow: 0 0 2px rgba(100, 100, 100, 0.3);
-        position: absolute;
-        padding: 0;
-        margin: 0;
-
-        &, a {
-            text-decoration: none;
-            color: black;
-            font-style: normal;
-        }
+    &, a {
+        text-decoration: none;
+        color: inherit;
+        font-style: normal;
     }
-
-    h2, h3 { text-transform: uppercase; }
-
-    img {
-        left: 20px;
-        top: 90px;
-        width: 60px;
-    }
-
-    h2, h3, address a { left: 100px; }
-    h2 { top: 110px; }
-    h3 { top: 130px; }
-    .email { top: 165px; }
-    .phone { top: 200px; }
 }
