@@ -47,20 +47,23 @@
     </nav>
 
     <div class="container__content">
-        <div class="grid grid--center grid--middle">
+        <div class="grid grid--center">
             {{ content }}
         </div>
     </div>
 
-    <footer class="container__footer box box--default text-center">
+    <footer class="container__footer text-center mrgb+">
         <address>
             {{ site.street }} |
             {{ site.zip }} {{ site.city }} |
-            {{ site.state }} - {{ site.country }} |
-            <a href="mailto:{{ site.email }}">{{ site.email }}</a><br><br>
-            designed by <b><a href="http://www.andco.ch" target="blank">Studio ANDco</a></b>
+            <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+            | designed by <b><a href="http://www.andco.ch" target="blank">Studio ANDco</a></b>
         </address>
     </footer>
+
+    <div class="elements">
+        <img src="{{ site.url }}/files/elements/chairs.png"
+    </div>
 
     <script type="text/javascript" src="{{ '/javascripts/main.js' | absolute_url }}?{{site.time | date: '%s%N'}}"></script>
     <script type="text/javascript">

@@ -1,0 +1,37 @@
+.frame {
+    border: 2em solid;
+    border-color: red;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 6px 10px 6px rgba(0,0,0,0.24);
+}
+
+.frame--blue {
+    border-color: blue;
+}
+
+.frame--black {
+    border-color: #3a3a38;
+    border-top-color:black;
+    border-bottom-color:black;
+}
+
+.frame--white {
+    border-color:#f6f5ee;
+    border-top-color:#edece5;
+    border-bottom-color:#edece5;
+}
+
+.cache {
+    border: 1em solid;
+}
+
+.cache--white {
+    border-color:#f6f5ee;
+    border-top-color:#edece5;
+    border-bottom-color:#edece5;
+}
+
+.cache--black {
+    border-color: #3a3a38;
+    border-top-color:black;
+    border-bottom-color:black;
+}

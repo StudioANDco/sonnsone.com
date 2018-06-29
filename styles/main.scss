@@ -5,3 +5,9 @@
 @import '../_sass/header';
 @import '../_sass/footer';
 @import '../_sass/tile';
+@import '../_sass/frame';
+
+body {
+    background-image: url("{{ site.url }}/files/papierpeint/papier2.jpg");
+    background-repeat: repeat;
+}
