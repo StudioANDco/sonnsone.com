@@ -29,6 +29,7 @@
 }
 
 .frame--text:hover + .hide {
+  display: block;
   position: absolute;
   top: 50%;
   left: 50%;
