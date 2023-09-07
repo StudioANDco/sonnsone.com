@@ -20,11 +20,15 @@
     border-bottom-color:#fdfdfd;
 }
 
+.frame--text {
+  position: relative;
+}
+
 .hide {
   display: none;
 }
 
-.myDIV:hover + .hide {
+.frame--text:hover + .hide {
   position: absolute;
   top: 50%;
   left: 50%;
