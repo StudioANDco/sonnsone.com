@@ -20,18 +20,10 @@
     border-bottom-color:#fdfdfd;
 }
 
-.frame--text {
-  position: relative;
-}
-
 .hide {
   display: none;
 }
 
 .frame--text:hover + .hide {
   display: block;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
