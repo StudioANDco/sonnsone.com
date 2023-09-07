@@ -19,3 +19,12 @@
     border-top-color:#d7d7d7;
     border-bottom-color:#fdfdfd;
 }
+
+.hide {
+  display: none;
+}
+
+.myDIV:hover + .hide {
+  display: block;
+  color: red;
+}
