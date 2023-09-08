@@ -8,6 +8,6 @@
 @import '../_sass/frame';
 
 body {
-    background-image: url("{{ '/files/papierpeint/background.jpg' | absolute_url }}");
-    background-repeat: repeat;
+    background: linear-gradient(93.1deg, rgb(238, 254, 183) 19.1%, rgb(169, 254, 222) 53.9%, rgb(90, 222, 255) 92%);
+
 }
