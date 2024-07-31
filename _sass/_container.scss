@@ -11,3 +11,16 @@
     }
 }
 
+.overlay-content {
+
+}
+
+.overlay {
+    opacity: 0;
+    transition: .5s ease;
+  }
+  
+  .container-content:hover .overlay {
+    opacity: 1;
+  }
+
