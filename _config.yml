@@ -1,16 +1,16 @@
-title: sonnsone
-description: Sonnsone Portfolio
+title: Lelours
+description: Lelours Portfolio
 author:
     name: Studio ANDco Sàrl
     twitter: ANDco_o
-email: triangle@andco.ch
+email: atelier@lelours.ch
 lang: fr_CH
 logo: tile.png
 
 seo:
     type: Business
 
-street: "Rue Chanoine Berchtold 7"
+street: "Rue De la Cathédrale 15"
 city: "Sion"
 zip: "1950"
 state: "Valais"
@@ -19,7 +19,7 @@ latitude: "46.235885"
 longitude: "7.3578723"
 
 social:
-  name: sonnsone
+  name: lelours_
   links:
 
 twitter:
@@ -27,13 +27,13 @@ twitter:
 
 facebook:
     app_id: Facebook APP id
-    publisher: "https://www.facebook.com/andcohello"
+    publisher: "Facebook"
 
 google_site_verification: googleddcee30cf477c8ba
 ga: UA-59665695-1
 
 baseurl: ""
-url: "https://sonnsone.ch"
+url: "https://lelours.ch"
 
 exclude:
 
